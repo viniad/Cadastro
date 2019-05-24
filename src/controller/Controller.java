@@ -57,12 +57,11 @@ public class Controller implements ActionListener {
                     || janela.getSobrenome().getText() == ""
                     || janela.getIdade().getText() == ""
                     || janela.getCPF().getText() == ""
-                    || janela.getButtonMasc().isSelected() == false) {
+                    || janela.getButtonMasc().isSelected() == false && janela.getButtonFem().isSelected() == false) {
 
                 erro.setVisible(true);
 
             } else {
-
                 pessoa.setNome(janela.getNome().getText());
                 pessoa.setSobrenome(janela.getSobrenome().getText());
                 pessoa.setCPF(janela.getCPF().getText());
