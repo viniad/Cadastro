@@ -1,5 +1,5 @@
 #Netbeans
 /build
 /nbproject
-.xml
-.mf
+*.xml
+*.mf
