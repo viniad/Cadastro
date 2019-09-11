@@ -3,7 +3,7 @@ An algorithm in Portuguese-BR developed in Java, using Graphical User Interface,
 
 <h2> How it works </h2>
 
-- First you have to complete all the filds with your information
+- First you have to complete all the fields with your information
 
 ![](images/print.png)
 
